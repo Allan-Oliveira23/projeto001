@@ -55,15 +55,18 @@ body {
     background-size: cover;
     */
     background: var(--bg-url) no-repeat top center/cover;
+    height: 100vh;
 
 }
 
 #container {
-    width: 360px;
+    width: 100%;
+    max-width: 588px;
     padding:  0 24px;
     margin: auto;
     margin-top: 56px;
     margin-bottom: 24px;
+    
 }
 
 #profile {
@@ -174,4 +177,16 @@ footer{
 }
 footer p a:hover{
     color: var(--footer-hover);
+}
+
+@media (min-width: 700px) {
+
+    :root {
+        --bg-url: url(./assets/bg-desktop.jpg);
+    }
+
+    .light {
+         --bg-url: url(./assets/bg-desktop-light.jpg);
+    }
+
 }
