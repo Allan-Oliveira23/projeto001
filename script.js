@@ -12,9 +12,9 @@ function toggleMode() {
   const img = document.querySelector("#profile img")
 
   if (html.classList.contains('light')) {
-    img.setAttribute("src" , "../assets/avatar-light.png")
+    img.setAttribute("src" , "https://raw.githubusercontent.com/Allan-Oliveira23/projeto001/9ef1ab393e97046f687d71bafa868bfd2cbc94e0/assets/avatar-light.png")
   } else {
-    img.setAttribute("src" , "../assets/avatar.png")
+    img.setAttribute("src" , "https://raw.githubusercontent.com/Allan-Oliveira23/projeto001/9ef1ab393e97046f687d71bafa868bfd2cbc94e0/assets/avatar.png")
   }
 
   if (html.classList.contains('light')) {
