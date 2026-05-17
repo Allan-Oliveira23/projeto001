@@ -17,14 +17,14 @@
     --bg-links:rgba(65, 65, 67, 1);
     --links-border: rgb(102, 102, 102, 0.001);
     --footer-hover:rgba(255, 255, 255, 0.2);
-    --switch-bg: url(../assets/moon-stars.svg);
+    --switch-bg: url(https://raw.githubusercontent.com/Allan-Oliveira23/projeto001/9ef1ab393e97046f687d71bafa868bfd2cbc94e0/assets/moon-stars.svg);
     --track-border-color:rgba(255, 255, 255, 0.5);
     --bg-track:rgba(255, 255, 255, 0.1);
 }
 
 .light{
     --text-color: black;
-    --bg-url: url(../assets/bg-mobile-light.jpg);
+    --bg-url: url(https://raw.githubusercontent.com/Allan-Oliveira23/projeto001/9ef1ab393e97046f687d71bafa868bfd2cbc94e0/assets/sun.svg);
     --bg-ul:rgba(142, 142, 142, 0.1);
     --bg-ul-hover:rgba(255,255,255, 1);
     --ul-border-color: rgba(142, 142, 142, 1);
