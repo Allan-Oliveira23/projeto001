@@ -33,7 +33,7 @@
     --links-border: black;
     --footer-hover:rgba(0, 0, 0, 0.3);
     --switch-bg: url(../assets/sun.svg);
-    --track-border-color:rgba(0, 0, 0, 0.05);
+    --track-border-color:rgba(0, 0, 0, 1);
     --bg-track:rgba(0, 0, 0, 0.05);
     
 
