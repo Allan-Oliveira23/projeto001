@@ -47,6 +47,10 @@ body *{
   color: var(--text-color);
 }
 
+html, body {
+  min-height: 100%;
+}
+
 body {
     /*
     background-image: url(./assets/bg-mobile.jpg);
@@ -55,8 +59,22 @@ body {
     background-size: cover;
     */
     background: var(--bg-url) no-repeat top center/cover;
-    height: 100vh;
+    min-height: 100vh;
+    -webkit-text-size-adjust: 100%;
+    touch-action: manipulation;
+}
 
+button,
+a {
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+}
+
+button {
+    cursor: pointer;
+    -webkit-appearance: none;
+    appearance: none;
 }
 
 #container {
@@ -85,13 +103,13 @@ body {
 }
 #switch {
     position: relative;
-    width: 64px;
+    width: 72px;
     margin: 4px auto;
 }
 
 #switch button {
-    width: 32px;
-    height: 32px;
+    width: 44px;
+    height: 44px;
     background: var(--switch-bg) white no-repeat center;
     border-radius: 50%;
     border: 0;
@@ -100,10 +118,12 @@ body {
     position: absolute;
     z-index: 1;
     transform: translateY(-50%);
-
     animation: slide-back 0.2s;
-   
-     
+}
+
+#switch button:focus-visible {
+    outline: 3px solid rgba(0, 0, 0, 0.2);
+    outline-offset: 2px;
 }
 #switch button:hover{
     outline: 8px solid var(--bg-track);
@@ -114,8 +134,8 @@ body {
     display: block;
     background-color: var(--bg-track);
     border: 1px solid var(--track-border-color);
-    width: 64px;
-    height: 24px;
+    width: 72px;
+    height: 30px;
     border-radius: 9999px;
 }
 
