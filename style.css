@@ -24,7 +24,7 @@
 
 .light{
     --text-color: black;
-    --bg-url: url(https://raw.githubusercontent.com/Allan-Oliveira23/projeto001/9ef1ab393e97046f687d71bafa868bfd2cbc94e0/assets/sun.svg);
+    --bg-url: url(../assets/bg-mobile-light.jpg);
     --bg-ul:rgba(142, 142, 142, 0.1);
     --bg-ul-hover:rgba(255,255,255, 1);
     --ul-border-color: rgba(142, 142, 142, 1);
@@ -32,7 +32,7 @@
     --bg-links:rgba(229, 229, 229, 1);
     --links-border: black;
     --footer-hover:rgba(0, 0, 0, 0.3);
-    --switch-bg: url(../assets/sun.svg);
+    --switch-bg: url(https://raw.githubusercontent.com/Allan-Oliveira23/projeto001/9ef1ab393e97046f687d71bafa868bfd2cbc94e0/assets/sun.svg);
     --track-border-color:rgba(0, 0, 0, 1);
     --bg-track:rgba(0, 0, 0, 0.05);
     
